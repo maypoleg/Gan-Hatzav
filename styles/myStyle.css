@@ -1,0 +1,293 @@
+﻿/*/---*Fonts*---/*/
+
+
+/*Rubik*/
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../Fonts/rubik/Rubik-Regular.ttf') format('truetype'), url('../Fonts/rubik/Rubik-Regular.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('../Fonts/rubik/Rubik-Medium.ttf') format('truetype'), url('../Fonts/rubik/Rubik-Medium.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../Fonts/rubik/Rubik-Light.ttf') format('truetype'), url('../Fonts/rubik/Rubik-Light.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('../Fonts/rubik/Rubik-Bold.ttf') format('truetype'),url('../Fonts/rubik/Rubik-Bold.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'Rubik-Black';
+    src: url('../Fonts/rubik/Rubik-Black.ttf') format('truetype'),url('../Fonts/rubik/Rubik-Black.eot') format('embedded-opentype');
+}
+
+
+body {
+    direction: rtl;
+}
+
+/*-----------------------------------פתיח*/
+#Main {
+    background-color: #AFC59A;
+    height: 250px;
+}
+#title {
+    padding-top:20px;
+    font-size:48pt;
+    font-family:Rubik-Bold;
+    text-align:center;
+    line-height: 2.2;
+    color:black;
+}
+#subtitle {
+    font-size: 32pt;
+    font-family: Rubik-Bold;
+    text-align: center;
+    line-height: 1.8px;
+    color: black;
+}
+
+/*-----------------------------------כותרות משנה*/
+
+.subheadlines {
+    font-size: 22pt;
+    font-family: Rubik-Regular;
+    text-align: center;
+    line-height: 1.6px;
+    color: black;
+    padding-top: 50px;
+}
+
+/*-----------------------------------תמונות*/
+#Pictures {
+    background-color: #EDE5DC;
+    height: 600px;
+
+}
+
+#picTable {
+    margin-right: 100px;
+}
+
+.img {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 280px;
+    height: 200px;
+}
+/*תמונה ראשונה*/
+.hoverwhite {
+    background-color: white;
+    width: 280px;
+    height: 201px;
+    margin-right: 40px;
+    margin-top: -243px;
+    transition: 0.3s;
+    opacity:0;
+}
+    .hoverwhite #p1{
+        font-family: Rubik-Medium;
+        font-size: 16pt;
+        color: black;
+        text-align: center;
+        line-height: 1.6;
+        padding-top:70px;
+        opacity:1;
+    }
+
+.DivPic1:hover .hoverwhite {
+    display: block;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/*תמונה שנייה*/
+.hoverwhite #p2 {
+    font-family: Rubik-Medium;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 70px;
+    opacity: 1;
+}
+
+.DivPic2:hover .hoverwhite {
+    display: block;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/*תמונה שלישית*/
+.hoverwhite #p3 {
+    font-family: Rubik-Medium;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 70px;
+    opacity: 1;
+}
+
+.DivPic3:hover .hoverwhite {
+    display: block;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/*תמונה רביעית*/
+.hoverwhite #p4 {
+    font-family: Rubik-Medium;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 70px;
+    opacity: 1;
+}
+
+.DivPic4:hover .hoverwhite {
+    display: block;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/*תמונה חמישית*/
+.hoverwhite #p5 {
+    font-family: Rubik-Medium;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 70px;
+    opacity: 1;
+}
+
+.DivPic5:hover .hoverwhite {
+    display: block;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+/*תמונה שישית*/
+.hoverwhite #p6 {
+    font-family: Rubik-Medium;
+    font-size: 16pt;
+    color: black;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 70px;
+    opacity: 1;
+}
+
+.DivPic6:hover .hoverwhite {
+    display: block;
+    opacity: 0.8;
+    z-index: 1;
+}
+/*-----------------------------------צרו קשר*/
+#stayInTouch {
+    background-color: #B09AC5;
+    height: 300px;
+}
+
+#contactTitle {
+    font-size: 18pt;
+    font-family: Rubik-Regular;
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+    padding-top: 50px;
+}
+
+#contactTitle2 {
+    font-size: 18pt;
+    font-family: Rubik-Regular;
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+    padding-top: 10px;
+}
+
+#LinkText {
+    font-size: 18pt;
+    line-height: 1.6;
+    font-family: Rubik-Light;
+    text-align: center;
+    margin-right: 510px;
+    margin-top: 10px;
+}
+#StayInTouchTable {
+    margin-right: 500px;
+}
+
+#StayInTouchTable td {
+    font-size: 14pt;
+    font-family: Rubik-Light;
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+    padding-top: 10px;
+    padding-right:10px;
+    padding-left:10px;
+}
+/*-----------------------------------אני מאמין*/
+#Teacher_words {
+    background-color: #9AC4C5;
+    height: 300px;
+}
+
+#Ibelive {
+    font-size: 18pt;
+    font-family: Rubik-Light;
+    text-align: center;
+    line-height: 1.6;
+    color: black;
+    padding-top: 50px;
+}
+
+
+/*-----------------------------------סרטונים*/
+#Videos {
+    background-color: #ffac81;
+    height: 1000px;
+}
+
+#subheadlines2 {
+    font-size: 18pt;
+    font-family: Rubik-Light;
+    text-align: center;
+    line-height: 1.6px;
+    color: black;
+    padding-top: 50px;
+
+}
+
+#videoTable {
+
+    margin-right: 100px;
+    margin-top:50px;
+}
+
+.video {
+    margin-right: 40px;
+    margin-left: 40px;
+
+    width: 426px;
+    height: 240px;
+}
+
+.videoInfo {
+    font-size: 18pt;
+    font-family: Rubik-Light;
+    text-align: center;
+    line-height: 1.4;
+    color: black;
+    padding-top: 5px;
+    padding-bottom:10px;
+}
+
